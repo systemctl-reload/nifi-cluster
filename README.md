@@ -9,4 +9,9 @@ sudo git clone https://github.com/systemctl-reload/nifi-cluster.git
 
 cd nifi-cluster 
 
+შევქმნათ ნეტვორკი დოკერში: nifinet
+
+sudo docker network create -d bridge nifinet
+
+გავუშვათ კონტეინერები
 sudo docker-compose up -d
